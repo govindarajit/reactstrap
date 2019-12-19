@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Car from './Components/Car'
-import './css/mysass.scss'
+import Buttons from './Components/Buttons'
+import './css/mysass.scss' 
+
+
 function App() {
+  
   return (
     <div className="App">
-    <Car />
+    <Buttons     />
     </div>
   );
 }
