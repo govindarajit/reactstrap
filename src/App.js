@@ -1,5 +1,5 @@
 import React from 'react';   
-import Collapse1 from './Components/collapse1';
+import Forms from './Components/Forms';
 
  
 class App extends React.Component {
@@ -9,8 +9,8 @@ class App extends React.Component {
    
     
     return ( 
-     <div>
-     <Collapse1/>
+     <div> 
+       <Forms/>
          </div>
   
   );
