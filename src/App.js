@@ -1,17 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Buttons from './Components/Buttons'
-import './css/mysass.scss' 
+import React from 'react';   
+import Collapse1 from './Components/collapse1';
 
-
-function App() {
+ 
+class App extends React.Component {
   
-  return (
-    <div className="App">
-    <Buttons     />
-    </div>
+  
+  render(){ 
+   
+    
+    return ( 
+     <div>
+     <Collapse1/>
+         </div>
+  
   );
-}
+} 
+ 
 
+}
 export default App;
