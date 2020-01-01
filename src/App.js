@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Cards from "./Components/Cards";
+import PopOvers from "./Components/PopOvers";
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Cards/>
+        <PopOvers/>
       </div>
     )
   }
