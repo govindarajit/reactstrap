@@ -1,13 +1,16 @@
 *{
 margin:0;
-padding:0;
-    background-color:#ca5bc5;
+padding:0; 
 }
 
 body{
     padding:5em;
-    display:flex;
+    display:flex; 
     align-items: center;
     justify-content: center;
     justify-items: center;
+}
+.cards{
+    grid-auto-rows: min-content;
+    border:1em solid blue;
 }
