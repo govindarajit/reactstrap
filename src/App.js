@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Fade from "./Components/Fades";
+import DropDowns from "./Components/DropDowns";
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Fade/>
+        <DropDowns/>
       </div>
     )
   }

@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
  
     ReactDOM.render(
-      <App isLoggedIn={true} />,
+      <App />,
     document.getElementById('root')
     );
     

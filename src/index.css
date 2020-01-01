@@ -1,7 +1,13 @@
+*{
+margin:0;
+padding:0;
+    background-color:#ca5bc5;
+}
+
 body{
-    padding:2em;
-    margin:2em;
+    padding:5em;
     display:flex;
     align-items: center;
     justify-content: center;
+    justify-items: center;
 }
